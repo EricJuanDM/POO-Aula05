@@ -34,4 +34,9 @@ public class Funcionario{
     public void exibaDados(){
         System.err.println("O Funcionario '" + Nome + "' Ganha por mês " + Salario + " E pro ano " + Salario * 12);
     }
+
+    public double ganhoAnual() {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'ganhoAnual'");
+    }
 }

@@ -19,6 +19,14 @@ public class Assistente extends Funcionario{
         System.err.println("O Funcionario ' " + getNome() + " ' Tem a matricula " + numeroMatricula + " Ganha por mês " + getSalario() + " E pro ano " + getSalario() * 12);
     }
 
+    /**
+     * b. ...e sobrescreva o método ganhoAnual().
+     */
+    public double ganhoAnual() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'ganhoAnual'");
+    }
+
 
 
     
